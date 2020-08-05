@@ -1,0 +1,54 @@
+.box >>> .el-upload
+  overflow: hidden !important
+.box
+  width: 100%
+.left
+  float: left
+  margin-right: 20px
+.btn-text
+  display: block
+  margin: auto
+  margin-top: 20px
+.right
+  float: right
+.val-box
+  margin-bottom: 16px
+.title-strong
+  display: block
+  font-size: 14px
+  line-height: 36px
+.list-img > li
+  float: left
+  margin-top: 10px
+  margin-right: 10px
+.list-img > li > .el-button
+  display: block
+  margin: auto
+  margin-top: 10px
+.list-img > li > strong
+  display: block
+  font-size: 14px
+  text-align: center
+  line-height: 30px
+.list-img > li > span
+  display: block
+  font-size: 12px
+  color: #999
+.img-box
+  padding: 10px
+  margin-top: -10px
+  position: relative
+  .img-mask
+    display: none
+    position: absolute
+    top: 0px
+    left: 0px
+    background: rgba(0,0,0,0.5)
+    width: 100%
+    height: 100%
+    font-size: 26px
+    color: #fff
+  img
+    width: 100%
+.img-box:hover .img-mask
+  display: block

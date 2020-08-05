@@ -1,0 +1,57 @@
+.box >>> .el-switch__label
+  position: absolute
+  display: none
+  color: #fff
+  left: -7px/*打开时文字位置设置*/
+.box >>> .el-switch__label--right
+  z-index: 1
+  right: 0px /*关闭时文字位置设置*/
+.box >>> .el-switch__label--left
+  z-index: 1
+  left: 19px /*显示文字*/
+  margin-right: 0px
+.box >>> .el-switch__label.is-active
+  display: block
+.box >>> .el-switch .el-switch__core, .el-switch .el-switch__label
+  width: 50px !important
+
+.drawerBox >>> .el-switch__label
+  position: absolute
+  display: none
+  color: #fff
+  left: -7px/*打开时文字位置设置*/
+.drawerBox >>> .el-switch__label--right
+  z-index: 1
+  right: 0px /*关闭时文字位置设置*/
+.drawerBox >>> .el-switch__label--left
+  z-index: 1
+  left: 19px /*显示文字*/
+  margin-right: 0px
+.drawerBox >>> .el-switch__label.is-active
+  display: block
+.drawerBox >>> .el-switch .el-switch__core, .el-switch .el-switch__label
+  width: 50px !important
+  /* 对话框标题背景色 */
+.drawerBox >>> .el-dialog__header
+  background: #eee
+.formWapper
+  display: flex
+.formWapper >>> textarea
+  height 140px
+.formWapper >>> .el-select
+  display: block;
+.rightWapper
+  display: flex
+.rightWapper >>> textarea
+  height 150px
+.rightWapper >>> .el-select
+  position: absolute
+  top: 0px
+  right: 1px
+.noBorder >>> input
+  width: 0
+  border: none
+  opacity: 0
+.drawerBox >>> .el-dialog__body
+  padding-top: 32px
+  padding-left: 32px
